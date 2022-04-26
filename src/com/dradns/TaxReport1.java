@@ -11,4 +11,12 @@ public class TaxReport1 {
         double c = calculator.calcTax();
         return "Its a report = " + c;
     }
+
+    public double make2(TaxCalculator calculator){
+        return calculator.calcTax();
+    }
+
+    public void setCalculator(TaxCalculator calculator) {
+        this.calculator = calculator;
+    }
 }
