@@ -1,5 +1,5 @@
 package com.dradns;
 
 public interface TaxCalculator {
-    float calculateTax();
+    public double calcTax();
 }
